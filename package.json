@@ -1,0 +1,19 @@
+{
+  "name": "hubees-icons",
+  "version": "0.0.0",
+  "description": "Hubees icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hubees-br/hubees-icons.git"
+  },
+  "author": "Mayconn Coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hubees-br/hubees-icons/issues"
+  },
+  "homepage": "https://github.com/hubees-br/hubees-icons#readme"
+}
