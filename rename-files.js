@@ -11,12 +11,12 @@ const files2 = readdirSync(imageDirPath2);
 
 // Loop through each file that was retrieved
 files.forEach((file) => {
-  const newName = file.includes('=') ? file.split('=')[1] : file;
+  const newName = 'hubees-' + file.includes('=') ? file.split('=')[1] : file;
   rename(imageDirPath + `/${file}`, imageDirPath + `/${newName}`, () => {});
 });
 
 // Loop through each file that was retrieved
 files2.forEach((file) => {
-  const newName = file.includes('=') ? file.split('=')[1] : file;
+  const newName = 'hubees-' + file.includes('=') ? file.split('=')[1] : file;
   rename(imageDirPath + `/${file}`, imageDirPath + `/${newName}`, () => {});
 });
