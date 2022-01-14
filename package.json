@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rimraf outline solid package *.tgz",
     "export": "figma-export use-config figma.config.js",
-    "build": "run-s clean export",
+    "rename": "node rename-files.js",
+    "build": "run-s clean export rename",
     "np": "np",
     "release": "run-s build np"
   },
