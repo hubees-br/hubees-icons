@@ -25,9 +25,9 @@ All right, now we just need to run the script to get the icons.
 ### Available scripts
 ![image](https://user-images.githubusercontent.com/84742204/149529666-787ca3aa-2d41-46b4-a242-db1d720322a3.png)
 
-npm run clean: Will delete all local icons;
-npm run export: Will download locally all the icons from the pages solid and outline;
-npm run rename: Will rename the icons, removing the extra prefix that figma bring by default, and add the prefix "hubees-";
-npm run build: Will run clean, export and rename at once;
-npm run np: This command help to create a npm version after run build;
-npm run release: This command does everything needed to build and publish the icons lib. But to use it, you need to have git and npm access. 
+##### npm run clean: Will delete all local icons;
+##### npm run export: Will download locally all the icons from the pages solid and outline;
+##### npm run rename: Will rename the icons, removing the extra prefix that figma bring by default, and add the prefix "hubees-";
+##### npm run build: Will run clean, export and rename at once;
+##### npm run np: This command help to create a npm version after run build;
+##### npm run release: This command does everything needed to build and publish the icons lib. But to use it, you need to have git and npm access. 
