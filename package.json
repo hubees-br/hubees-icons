@@ -31,7 +31,6 @@
     "rimraf": "^3.0.2"
   },
   "files": [
-    "outline/",
-    "solid/"
+    "hubees/"
   ]
 }
