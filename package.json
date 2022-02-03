@@ -4,7 +4,7 @@
   "description": "Hubees icons",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf outline solid package *.tgz",
+    "clean": "rimraf outline solid hubees icons package *.tgz",
     "export": "figma-export use-config figma.config.js",
     "rename": "node rename-files.js",
     "build": "run-s clean export rename",

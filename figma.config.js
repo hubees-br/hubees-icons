@@ -45,6 +45,18 @@ const outputters = [require('@figma-export/output-components-as-svg')({ output: 
 const generalSVGOConfig = [
   { name: 'removeDimensions', active: true },
   { name: 'sortAttrs', active: true },
+  {
+    name: 'removeAttrs',
+    params: {
+      attrs: 'stroke',
+    },
+  },
+  {
+    name: 'addAttributesToSVGElement',
+    params: {
+      attribute: { stroke: 'currentColor' },
+    },
+  },
 ];
 
 // /** @type {import('@figma-export/types').FigmaExportRC} */
